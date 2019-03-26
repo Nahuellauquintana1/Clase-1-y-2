@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1553611612 source:c:\users\alumno\desktop\calculadora\factorizacion.c
+	"Factorizacion.h"
+
+1553612024 c:\users\alumno\desktop\calculadora\factorizacion.h
+
+1553603134 source:c:\users\alumno\desktop\calculadora\ingreso.c
+	"ingreso.h"
+	<stdio.h>
+
+1553604801 c:\users\alumno\desktop\calculadora\ingreso.h
+
+1553611425 source:c:\users\alumno\desktop\calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ingreso.h"
+	"Factorizacion.h"
+
+1553611620 source:c:\users\alumno\desktop\calculadora\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"ingreso.h"
+	"Factorizacion.h"
+
+1553612182 source:c:\users\alumno\desktop\calculadora\operaciones.c
+
