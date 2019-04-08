@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1554130213 source:c:\users\alumno\desktop\1223\main.c
+	<stdio.h>
+	<stdlib.h>
+	"vector.h"
+
+1554130056 c:\users\alumno\desktop\1223\vector.h
+
+1554131195 source:c:\users\alumno\desktop\1223\vector.c
+	"vector.h"
+	<stdio.h>
+	<stdlib.h>
+
+1554132981 source:c:\users\nahue\desktop\ejercicio-vectores-1c-master\1223\vector.c
+	"vector.h"
+	<stdio.h>
+	<stdlib.h>
+
+1554132981 c:\users\nahue\desktop\ejercicio-vectores-1c-master\1223\vector.h
+
+1554149535 source:c:\users\nahue\desktop\ejercicio-vectores-1c-master\1223\main.c
+	<stdio.h>
+	<stdlib.h>
+	"vector.h"
+
+1554726994 source:c:\users\alumno\desktop\ejercicio-vectores-1c-master\1223\main.c
+	<stdio.h>
+	<stdlib.h>
+	"vector.h"
+
+1554727074 c:\users\alumno\desktop\ejercicio-vectores-1c-master\1223\vector.h
+
+1554727023 source:c:\users\alumno\desktop\ejercicio-vectores-1c-master\1223\vector.c
+	"vector.h"
+	<stdio.h>
+	<stdlib.h>
+
