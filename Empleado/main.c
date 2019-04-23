@@ -1,14 +1,14 @@
 #include <stdlib.h>
 #include "Empleado.h"
 #define T 10
-
+#define TS 3
 int menuDeOpciones(char[]);
-
 int main()
 {
     int opcion;
     eEmpleado lista[T];
     inicializarEmpleados(lista,T);
+    eSector sectores[TS] = {{1,"Contabilidad",100},{2,"Sistemas",200},{3, "RRHH", 150}};
     hardcodearDatosEmpleados(lista,6);
     do
     {
@@ -16,7 +16,7 @@ int main()
         switch(opcion)
         {
         case 1:
-            cargarEmpleado(lista,  T);
+            cargarEmpleado(lista,  T, sectores, TS);
             break;
         case 2:
 
@@ -25,10 +25,10 @@ int main()
             menuModificaciones("1:Modificar Nombre\n2:Modificar Sexo\n3:Modificar Sueldo Bruto\n4:Salir al menu anterior\nElija una opcion: ", lista, T);
             break;
         case 4:
-            mostrarListaEmpleados(lista, T);
+            mostrarListaEmpleados(lista, T, sectores, TS);
             break;
         case 5:
-            mostrarMaximo(lista,T);
+            mostrarMaximo(lista,T, sectores, TS);
 
             break;
         case 6:
