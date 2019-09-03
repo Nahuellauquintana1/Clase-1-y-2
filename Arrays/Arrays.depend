@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1567515453 source:c:\users\alumno\desktop\arrays\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Dll.h"
+
+1567515627 c:\users\alumno\desktop\arrays\dll.h
+
+1567515793 source:c:\users\alumno\desktop\arrays\dll.c
+	<stdio.h>
+	<stdlib.h>
+	"Dll.h"
+
